@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebe7de;
+  line-height: 1.5;
+  padding: 25;
+}
+
+
+.edit{
+  height: 70vh;
+  border: solid black;
+  border-radius: 5vh;
+  box-shadow: 10px 10px 50px 10px #000000;
+}
+
+h1 {
+  color: #f8ecdf;
+}
+
+header {
+  background: linear-gradient(to right, rgb(24, 24, 24), rgb(44, 44, 44));
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-toggle {
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+#menu li a:hover {
+  color: rgb(254, 115, 0);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.highlight {
+  color: rgb(234, 97, 62);
+}
+
+.fixed {
+  position: sticky;
+}
+
+section {
+  padding: 50px;
+  margin: 30px;
+  background: #fff;
+  border-radius: 8px;
+  border: solid black;
+}
+
+.project {
+  margin-top: 15px;
+}
+
+#box {
+  padding: 10px;
+  margin: 0;
+  background: #58340c91;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+}
+
+  .lol{
+    padding: 70px 30px 20px 20px;
+  }
+
+  .edit{
+    height: 60vh;
+  }
+
+  .rofl{
+    padding-top: 50px;
+  }
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .edit{
+    height: 45vh;
+  }
+
+  .lol{
+    padding: 30px 30px 20px 20px;
+  }
+
+  .rofl{
+    padding: 20px;
+  }
+
+
+  .highlight{
+    padding: 10px;
+  }
+
+  #menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position:absolute;
+    top: 110px; /* Ensures menu is below logo and heading */
+    left: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 90%;
+    z-index: 1;
+  }
+
+  #menu.active {
+    display: flex;
+  }
+
+  #menu li {
+    margin: 5vh ;
+  }
+
+  header {
+    padding: 30px 10px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  section {
+    margin: 30px 20px;
+    padding: 30px 40px;
+  }
+}

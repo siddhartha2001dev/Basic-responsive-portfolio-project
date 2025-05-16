@@ -1,0 +1,93 @@
+header{
+    color: #ffffff;
+    padding: 2%;
+    margin: 2%;
+    background: linear-gradient(to right, rgb(17, 17, 17),rgb(44, 44, 44));
+    text-align: center;
+    border-radius: 8px;
+}  
+
+#container2{
+    padding: 4%;
+    margin: 5%;
+    gap: 10px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 8px;
+    border: solid black;
+}
+
+#container{
+    padding: 4%;
+    margin: 5%;
+    gap: 10px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 8px;
+    border: solid black;
+}
+
+body{
+    background-color: #ebe7de;
+    margin: 0%;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.center{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#box {
+  padding: 10px;
+  margin: 0;
+  background: #58340c91;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* This makes the main content take available space */
+}
+
+footer {
+  background-color: #a4896b;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+
+@media(max-width: 800px){
+    .flexbox{
+        flex-direction: column;
+                                                                                                                                                                                                                                                                                       
+    }
+
+    #box {
+  padding: 10px;
+  margin: 0;
+  background: #58340c91;
+  color: #ffffff;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+}
+}

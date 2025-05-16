@@ -1,0 +1,46 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    margin: 0px;
+    border-radius: 5%;
+    line-height: 1.7;
+    background-color: #ebe7de;
+  }
+
+  section {
+    padding: 4%;
+    margin: 7%;
+    background: #fff;
+    border-radius: 20px;
+    border: solid black;
+  }
+  
+
+  .container{
+    color: #ffffff;
+    padding: 4%;
+    margin: 4%;
+    background: linear-gradient(to right, rgb(17, 17, 17),rgb(51, 51, 51));
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* This makes the main content take available space */
+}
+
+footer {
+  background-color: #a4896b;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
